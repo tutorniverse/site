@@ -1,0 +1,24 @@
+/*
+Theme Name:     Ba Bar
+Template:       saigonsiblings
+Author:         East Slope Studio
+Author URI:     https://eastslope.studio/
+Description:    The 2020 child theme for Ba Bar designed by <a href="http://www.lookatlao.com">Lookatlao</a> and developed by <a href="https://eastslope.studio">East Slope Studio</a>.
+Version:        1.0.0
+Text Domain:    saigonsiblings
+Child Theme Reference: https://developer.wordpress.org/themes/advanced-topics/child-themes/
+*/
+
+:root {
+  --f-theme: 'Bevan', Georgia, 'Times New Roman', Times, serif;
+  --c-theme: #019dab;
+  --c-theme-alt: #019dab;
+}
+
+.font-theme,
+.title,
+.hero-intro h1 {
+  font-weight: 400 !important;
+  text-transform: uppercase !important;
+  letter-spacing: normal !important;
+}

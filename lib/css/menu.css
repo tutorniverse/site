@@ -1,0 +1,61 @@
+/* CSS Document */
+
+<style>
+	/* Basic Styles */
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	li {
+		margin: 0;
+		padding: 0;
+	}
+
+	/* Main Navigation Styles */
+	.main-nav > li {
+		display: inline-block;
+		position: relative;
+		margin-right: 20px;
+	}
+
+	.main-nav a {
+		text-decoration: none;
+		color: #333;
+		padding: 10px 10px;
+	}
+
+	.main-nav a:hover {
+		color:#e6bc20;
+	}
+
+	/* Submenu Styles */
+	.sub-menu {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		background-color: #fff;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	}
+
+	.main-nav li:hover .sub-menu {
+		display: block;
+	}
+
+	.sub-menu li {
+		display: block;
+		padding: 0px 15px;
+	}
+
+	/* Additional Styling for Submenu Items */
+	.sub-menu a {
+		padding: 10px;
+		text-align: left;
+		white-space: nowrap;
+	}
+	ul.sub-menu li a:hover {
+		color:#e6bc20;
+	}
+  
+</style>

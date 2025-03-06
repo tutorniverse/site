@@ -1,0 +1,23 @@
+h3 {
+  margin-bottom: 0;
+}
+
+h3 + * {
+  margin-top: 0;
+}
+
+.intro {
+  font-size: 1.5em;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.btn,
+.button {
+  text-decoration: none;
+  color: currentColor;
+  border: 2px solid currentColor;
+  padding: 0.5em 1em;
+}

@@ -1,0 +1,50 @@
+<div class="flex items-center justify-end lg:mb-4">  
+	<nav aria-label="Primary" class="hidden lg:flex justify-between flex-grow" tabindex="0">
+		<ul class="main-nav" style="font-family:inherit;text-transform:none; font-size:.875rem;">
+			<li>
+				<a href="#">Trương Trình</a>
+				<ul class="sub-menu" style="font-family:inherit;text-transform:none; font-size:.875rem;">
+					<li><a href="/vn/academic/math">Học Toán</a></li>
+					<li><a href="/vn/academic/music/">Học Nhạc</a></li>
+					<li><a href="/vn/academic/art/">Học Nghệ Thuật</a></li>
+					<li><a href="/vn/academic/software/">Học Phần Mềm</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Thành Viên</a>
+				<ul class="sub-menu" style="font-family:inherit;text-transform:none; font-size:.875rem;">
+					<li><a href="/vn/bestudent">Học Sinh</a></li>
+					<li><a href="/vn/betutor">Giáo Viên</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Dịch vụ chuyên nghiệp</a>
+				<ul class="sub-menu" style="font-family:inherit;text-transform:none; font-size:.875rem;">
+					<li><a href="/vn/psg/design/">Thiết kế & Triển khai mạng</a></li>
+					<li><a href="/vn/psg/support/">Hỗ trợ công nghệ</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Về Chúng Tôi</a>
+				<ul class="sub-menu" style="font-family:inherit;text-transform:none; font-size:.875rem;">
+					<li><a href="/vn/whyus">Chọn Chúng Tôi</a></li>
+					<li><a href="/vn/contactus">Liên Hệ Chúng Tôi</a></li>
+				</ul>
+			</li>
+			<li>    
+				<select id="languageSelect" name="language" onchange="changeLanguage(this)">
+					<option value="en">Tiếng Anh</option>
+					<option value="vn" selected>Tiếng Việt</option>
+				</select>
+			</li>
+			<li><a href="/member/" class="button--black">Đăng Nhập</a></li>
+		</ul>
+	</nav>
+	<button class="ml-4 hover:text-yellow transition-color flex lg:hidden" data-action="click->nav-mobile#open" aria-controls="nav-mobile">
+		<svg class="w-8 h-auto fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+			<title>Nav</title>
+			<rect width="40" height="2" y="12"></rect>
+			<rect width="40" height="2" y="26"></rect>
+		</svg>
+	</button>
+</div>

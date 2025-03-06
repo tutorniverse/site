@@ -1,0 +1,85 @@
+<style type="text/css" id="wp-custom-css">
+	div.rich-text h3 {
+		margin: 1.25em 0 0 0;
+	}
+
+a.bigboy {
+	font-size: 2em;
+}
+
+h2.press {
+	font-size: 2.2em;
+	font-family: "Source Sans Pro";
+	font-weight: bold;
+	color: #f1c631;
+	margin: 0 0 8px 0;
+	}
+
+h2.press a:link {
+	color: #f1c631;
+	text-decoration: none;
+	}
+
+h2.press a:hover {
+	color: #fff;
+	text-decoration: underline;
+	}
+
+p.cite {
+	font-size: 1.5em;
+	font-family: "Source Sans Pro";
+	margin: 0 0 50px 0;
+	
+}
+
+.location-slider{
+	width:100%;
+}
+.location-slider img{
+	width: 100%;
+}
+
+/*hide default arrows*/
+.location-slider [class^="swiper-button-"]::after{
+	content: "";
+}
+
+.checkmark {
+	color: green; /* Color for the checkmark */
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.statement {
+	margin-bottom: 20px;
+}
+	
+ 
+	
+
+	
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) 
+{
+	
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) 
+{
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) 
+{
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) 
+{
+
+}
+	
+</style>
